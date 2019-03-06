@@ -1,0 +1,21 @@
+{
+  "name": "cli-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": {
+    "url": "https://codewithhugo.com/how-to-make-beautiful-simple-cli-apps-with-node/",
+    "email": "binauralvoice@gmail.com",
+    "name": "antikytheraton"
+  },
+  "bin": {
+    "fix-package-json": "./index.js"
+  },
+  "dependencies": {
+    "execa": "^1.0.0",
+    "listr": "^0.14.3"
+  }
+}
